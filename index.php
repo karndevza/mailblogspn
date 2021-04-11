@@ -5,7 +5,11 @@ $txt = "Hello world!";
 $headers = "Content-Type: text/html; charset=UTF-8";
 "CC: somebodyelse@example.com";
 
-mail($to,$subject,$txt,$headers);
+if(mail($to,$subject,$txt,$headers)){
+  echo 'sent-email ok';
+}else{
+  echo 'sent-email error.!!!';
+}
 
 
 ?>
