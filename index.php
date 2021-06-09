@@ -1,5 +1,5 @@
 <?php 
-$to = "karnkung30.pbnblogspd@.blogger.com";
+$to = "goodwide.postmail@blogger.com";
 $subject = "My subject ทดสอบ";
 $txt = "Hello world!";
 $headers = "Content-Type: text/html; charset=UTF-8";
